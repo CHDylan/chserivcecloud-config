@@ -8,13 +8,13 @@ server:
 
 spring: 
   profiles: dev  #开发环境
-  application: 
+   application: 
       name: chserivcecloud-config-client
       
 eureka: 
   client: 
      service-url: 
-     defaultZone: http://eureka-dev.com:7001/eureka/  
+      defaultZone:  http://eureka-dev.com:7001/eureka/  
          
 ---
 server: 
@@ -22,11 +22,11 @@ server:
 
 spring: 
   profiles: test  #测试环境
-  application: 
+   application: 
       name: chserivcecloud-config-client
       
 eureka: 
   client: 
      service-url: 
-     defaultZone: http://eureka-test.com:7001/eureka/  
+      defaultZone:  http://eureka-test.com:7001/eureka/  
     
