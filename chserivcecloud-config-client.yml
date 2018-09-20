@@ -10,6 +10,7 @@ spring:
   profiles: dev  #开发环境
   application: 
       name: chserivcecloud-config-client
+      
 eureka: 
   client: 
      service-url: 
@@ -23,6 +24,7 @@ spring:
   profiles: test  #测试环境
   application: 
       name: chserivcecloud-config-client
+      
 eureka: 
   client: 
      service-url: 
